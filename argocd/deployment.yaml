@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx
   name: nginx
-  namespace: nginx
+  namespace: my-nginx
 spec:
   replicas: 1
   selector:
